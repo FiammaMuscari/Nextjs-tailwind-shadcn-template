@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# _Inicio Rápido 🚀_
 
-## Getting Started
-
-First, run the development server:
+1. **Clona el repositorio:**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+ git clone https://github.com/FiammaMuscari/Nextjs-tailwind-shadcn-template
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navega al directorio del proyecto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+ cd Nextjs-tailwind-shadcn-template
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Instala las dependencias:
+   (Usa uno de los siguientes comandos)
 
-## Learn More
+```bash
+npm install
+yarn install
+pnpm install
+bun install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Ejecuta el servidor de desarrollo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run dev ️
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Abre el navegador:
 
-## Deploy on Vercel
+```bash
+ http://localhost:3000
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## _Estructura del Proyecto 📁_
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **`app/`**: Rutas y páginas (App Router) 🚀
+- **`components/`**: Componentes reutilizables 🔄
+- **`lib/`**: Utilidades y lógica 🧠
+- **`components.json`**: Configuración de **shadcn/ui** ⚙️
+- **`tailwind.config.js`**: Configuración de **Tailwind CSS** 🎨
+
+### _Componentes shadcn/ui ⚛️_
+
+Los componentes de **shadcn/ui** se encuentran en `components/ui/`.
+
+Para agregar nuevos componentes, usa el siguiente comando:
+
+```bash
+npx shadcn-ui@latest add button
+```
+
+### Personalización ✨
+
+- **Tailwind CSS**: Edita `tailwind.config.js` para personalizar la configuración de los estilos. 🎨
+- **shadcn/ui**: Usa el siguiente comando para agregar componentes de **shadcn/ui**:
+
+  ```bash
+  npx shadcn-ui@latest add [componente]
+  ```
+
+## **Dependencias Clave** 🛠️
+
+- **@radix-ui/react-\***: Componentes de **Radix UI** para una interfaz accesible y flexible. ⚛️
+- **class-variance-authority**, **tailwind-merge**: Herramientas para gestionar **Tailwind CSS**. 🎨
+
+- **lucide-react**: Iconos personalizables para tu proyecto. 🔥
+
+- **next-themes**: Gestión de temas, incluyendo modo oscuro y claro. ☀️
+
+- **sonner**: Notificaciones simples y elegantes. 🔔
+
+- **tailwindcss-animate**: Animaciones para mejorar la experiencia visual. ✨
+
+¡A programar! 🚀
